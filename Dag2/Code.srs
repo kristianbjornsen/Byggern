@@ -1,0 +1,75 @@
+%%% protect protected_file
+@E
+@ 
+#
+#
+#
+# Created by Synplify VHDL Compiler version comp500rc, Build 070R from Synplicity, Inc.
+# Copyright 1994-2010 Synopsys, Inc. , All rights reserved.
+# Synthesis Netlist written on Mon Sep 22 11:14:46 2014
+#
+#
+#OPTIONS:"|-top|Code|-dfltencoding|sequential|-encrypt|-pro|-lite|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\ISPLEVER_CLASSIC1_4\\synpbase\\bin\\c_vhdl.exe":1272017192
+#CUR:"C:\\ISPLEVER_CLASSIC1_4\\synpbase\\lib\\vhd\\location.map":1216910970
+#CUR:"C:\\ISPLEVER_CLASSIC1_4\\synpbase\\lib\\vhd\\std.vhd":1272017908
+#CUR:"E:\\byggern\\dag2\\code.vhd":1411377278
+#CUR:"C:\\ISPLEVER_CLASSIC1_4\\synpbase\\lib\\vhd\\std1164.vhd":1272017908
+#CUR:"C:\\ISPLEVER_CLASSIC1_4\\synpbase\\lib\\vhd\\arith.vhd":1272017906
+#CUR:"C:\\ISPLEVER_CLASSIC1_4\\synpbase\\lib\\vhd\\unsigned.vhd":1272017910
+f "C:\ISPLEVER_CLASSIC1_4\synpbase\lib\vhd\std.vhd"; # file 0
+af .is_vhdl 1;
+f "E:\byggern\dag2\code.vhd"; # file 1
+af .is_vhdl 1;
+f "C:\ISPLEVER_CLASSIC1_4\synpbase\lib\vhd\std1164.vhd"; # file 2
+af .is_vhdl 1;
+f "C:\ISPLEVER_CLASSIC1_4\synpbase\lib\vhd\arith.vhd"; # file 3
+af .is_vhdl 1;
+f "C:\ISPLEVER_CLASSIC1_4\synpbase\lib\vhd\unsigned.vhd"; # file 4
+af .is_vhdl 1;
+@E
+@ 
+ftell;
+@E@MR@n4::n(::R4jI	FsR8BFCCRLEHNPFDsN;P
+NR#3HPDE8R
+4;N3PRHP#_ER8D4N;
+P#R3$VM_lRNb"sIF	"R\ \:\Lo$oC\sM\o8N.O\\F38CP\E8";
+"
+@HR@U4::U.::NcR4N4R4
+4;N3HRs_0DFosHMCNlR4"N4
+";NDHRF"ORu;4"
+@HR@g4::g.::NcR4NjR4
+j;N3HRs_0DFosHMCNlR4"Nj
+";NDHRF"ORu;."
+@HR@44:j::.4dj:RRNgN
+g;N3HRs_0DFosHMCNlRg"N"N;
+HFRDOuR"d
+";
+@HR@44:4::.4d4:RRNUN
+U;N3HRs_0DFosHMCNlRU"N"N;
+HFRDOuR"c
+";
+@FR@44:.::.4(.:RlsN_RO#s_NlO
+#;N3HRs_0DFosHMCNlRN"sl#_O"N;
+HFRDOuR"4;g"
+@FR@44:d::.4(d:RON8_RO#N_8OO
+#;N3HRs_0DFosHMCNlR8"NO#_O"N;
+HFRDOuR"4;U"
+@FR@44:c::.4Uc:RCFD8#_ORCFD8#_O;H
+NR03sDs_FHNoMl"CRF8DC_"O#;H
+NRODFR4"u(
+";
+@FR@44:6::.4U6:RCFD8O_8RCFD8O_8;H
+NR03sDs_FHNoMl"CRF8DC_"8O;H
+NRODFR4"un
+";b@R@4::U.::UckRLVNRsl#_ORlsN_RO#N;44
+@bR@d4:4g:.::d4dH6RMFPRD_C8O4#_RCFD8#_O_N4R4
+j;b@R@44:d::4nd.4:.MRHPMRk.D_FCO8_#MRk.D_FCO8_#4RN4b;
+Rj@@:44::.4:Rk0sCsR0k0CRs;kC
+@bR@4j::44::V.RNCD#RDVN#VCRNCD#;R
+b@:@4d44:n4:d:Rd6NPM8R4kM_CFD8#_OR4kM_CFD8#_ORCFD8#_O_k4RMF._D_C8O
+#;b@R@46:d::4ndd6:.MRN8NPR8OO_#R_4N_8OO4#_RjN4R.kM_CFD8#_O;R
+b@:@4d44:.4:d:Rd6HRMPF8DC_RO#F8DC_RO#k_M4F8DC_;O#
+@bR@d4:64:4::d6dH.RMNPR8OO_#8RNO#_ORON8__O#4b;
+R4@@::dd4dd:dd:cR8NMPDRFC88_ODRFC88_OgRNR4kM_CFD8#_O;;
+C

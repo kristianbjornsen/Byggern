@@ -1,0 +1,201 @@
+ispLEVER Auto-Make Log File
+---------------------------
+
+Updating: Chip Report
+Cannot get current project information.
+Starting: 'C:\ispLEVER_Classic1_4\ispcpld\bin\Synpwrap.exe -e Code -target ispGAL -pro '
+
+Copyright (c) 1991-2010 Lattice Semiconductor Corporation,  All rights reserved.
+Version : 1.4.00.04.27.10
+
+Done sucessfully with exit code 0.
+#Build: Synplify Pro for Lattice D-2009.12LC-1, Build 040R, Jan 20 2010
+#install: C:\ISPLEVER_CLASSIC1_4\synpbase
+#OS: Windows_NT
+
+#Hostname: SANNTID01
+
+$ Start of Compile
+#Mon Sep 22 11:14:46 2014
+
+Synopsys VHDL Compiler, version comp500rc, Build 070R, built Apr 20 2010
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@N: CD720 :"C:\ISPLEVER_CLASSIC1_4\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"E:\byggern\dag2\code.vhd":6:7:6:10|Top entity is set to Code.
+VHDL syntax check successful!
+@N: CD630 :"E:\byggern\dag2\code.vhd":6:7:6:10|Synthesizing work.code.behavioral 
+Post processing for work.code.behavioral
+@W: CL159 :"E:\byggern\dag2\code.vhd":11:2:11:3|Input a8 is unused
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 22 11:14:47 2014
+
+###########################################################]
+Synopsys CPLD Technology Mapper, Version map500lat, Build 127R, Built Apr 21 2010
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version D-2009.12LC-1
+---------------------------------------
+Resource Usage Report
+
+Simple gate primitives:
+IBUF            3 uses
+OBUF            4 uses
+INV             4 uses
+AND2            3 uses
+
+
+@N: FC100 |Timing Report not generated for this device, please use place and route tools for timing analysis.
+D-2009.12LC-1
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 22 11:14:48 2014
+
+###########################################################]
+
+Synplicity VHDL/Verilog HDL Synthesizer finished successfully
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic1_4\ispcpld\bin\edif2blf.exe -edf "Code.edi" -out "Code.bl0" -err automake.err -log "Code.log" -prj sram -lib "C:\ispLEVER_Classic1_4\ispcpld/dat/mach.edn" -cvt YES -net_Vcc VCC -net_GND GND -nbx -dse -tlw'
+
+Starting EDIF2BLIF....
+readEDIF ended normally.
+
+Inspect circuit Code
+    Number of input ports   : 4
+    Number of output ports  : 4
+    Number of bidir ports   : 0
+    Number of instances     : 14
+    Number of nets          : 17
+
+No design errors found in circuit Code
+
+WriteBLIF ended normally.
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic1_4\ispcpld\bin\iblifopt.exe "Code.bl0" -red bypin choose -collapse -pterms 8 -family -err automake.err -gui'
+
+BLIFOPT  Open-ABEL Optimizer 
+ispLEVER Classic 1.4 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+U.C. Berkeley, SIS Ver. 1.0, supported by Lattice Semiconductor Corp.
+Reading Open-ABEL 2 file Code.bl0...
+Node a10_i has been collapsed.
+Node a9_c has been collapsed.
+Node a11_i has been collapsed.
+Node a10_c has been collapsed.
+Node adc_cs_1 has been collapsed.
+Node un1_oled_cs has been collapsed.
+Node un1_oled_cs_i has been collapsed.
+Node adc_cs_1_i has been collapsed.
+Node a11_c has been collapsed.
+Node oled_dc_c has been collapsed.
+Performing 'bypin choose' optimization...
+Writing Open-ABEL 2 (BLIF) file Code.bl1...
+
+BLIFOPT complete - 0 errors, 0 warnings. Time: 1 seconds
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic1_4\ispcpld\bin\iblflink.exe "Code.bl1" -o "sram.bl2" -omod Code -family -err automake.err -gui'
+
+BLIFLINK  Top-Down Design Linker
+ispLEVER Classic 1.4 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+
+Top-level file: 'Code.bl1'
+
+Hierarchical BLIF: 'sram.bl2'
+
+BLIFLINK complete.  Time: 1 second 
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic1_4\ispcpld\bin\iblifopt.exe sram.bl2 -red bypin choose -sweep -collapse all -pterms 8 -err automake.err -gui'
+
+BLIFOPT  Open-ABEL Optimizer 
+ispLEVER Classic 1.4 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+U.C. Berkeley, SIS Ver. 1.0, supported by Lattice Semiconductor Corp.
+Reading Open-ABEL 2 file sram.bl2...
+Performing 'bypin choose' optimization...
+Writing Open-ABEL 2 (BLIF) file sram.bl3...
+
+BLIFOPT complete - 0 errors, 0 warnings. Time: 1 seconds
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic1_4\ispcpld\bin\idiofft.exe sram.bl3 -pla -o sram.tt2 -dev p16v8 -define N -err automake.err -gui'
+
+DIOFFT  Flip-Flop Transformation program
+ispLEVER Classic 1.4 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+Input file: sram.bl3.
+Output file: sram.tt2.
+Cross reference file: sram.xrf.
+
+Shortening signal names...
+Writing signal name cross reference file sram.xrf... 
+
+DIOFFT complete. - Time 1 seconds
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic1_4\ispcpld\bin\fit.exe sram.tt2 -dev p16v8 -str -err automake.err -gui'
+
+FIT  Generic Device Fitter
+ispLEVER Classic 1.4 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+Input file: 'sram.tt2'
+Device 'p16v8'
+Note 4161: Using device architecture type P16V8AS.
+Warning 4154:Signal 'a8' (pin 4) is not used in the design -
+neither the signal nor its pin will be reassigned.
+Design FITS
+Pin-assigned pla: 'sram.tt3'
+
+FIT complete.  Time: 1 second.
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic1_4\ispcpld\bin\fuseasm.exe sram.tt3 -dev p16v8 -o sram.jed -ivec NoInput.tmv -rep sram.rpt -doc brief -con ptblown -for brief -err automake.err -gui'
+
+FUSEASM  Fusemap Assembler
+ispLEVER Classic 1.4 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+Note 5144: Could not open vector file NoInput.tmv
+
+Input file: 'sram.tt3'
+Device: 'P16V8AS'
+Building model...
+Choosing best polarities...
+Mapping equations...
+.
+3 of 64 terms used; 0 vectors loaded
+Programmer load file: 'sram.jed'
+Generating report...
+Report file: 'sram.rpt'
+
+FUSEASM complete.  Time: 1 second 
+
+Done: completed successfully.
